@@ -41,7 +41,7 @@ module.exports = {
       anticall: false, // Anti-call feature
       antigroupmention: false, // Anti-group mention feature
       antigroupmentionAction: 'delete', // 'delete', 'kick'
-      antigroupstatus: false, // Block group status posts
+      antigroupstatus: true, // Block group status posts
       antigroupstatusAction: 'delete', // 'delete', 'kick'
       antisticker: false, // Stickers not allowed in group
       antistickerAction: 'delete', // 'delete', 'kick'
